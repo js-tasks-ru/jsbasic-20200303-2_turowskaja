@@ -11,7 +11,6 @@ function print(text) {
  */
 function isValid(name) {
    return (name !== undefined && name.indexOf(" ") === -1 && name.length > 3 );
-
 }
 
 function sayHello() {
